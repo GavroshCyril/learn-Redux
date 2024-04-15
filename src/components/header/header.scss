@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+
+  &-container {
+    display: flex;
+    gap: 24px;
+  }
+
+  &-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #db6a00;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    &__link {
+      color: black;
+      font-weight: 500;
+    }
+  }
+}
+
+.header-button {
+  background: none;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
